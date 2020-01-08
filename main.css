@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Baskervville:400,400i&display=swap');
 
+/* COURAGETTE */
 @import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+
+/* ULTRA FONT- For Hex */
+@import url('https://fonts.googleapis.com/css?family=Ultra&display=swap');
 
 body{
   font-family: 'Baskervville', serif;
@@ -20,6 +24,7 @@ body{
 
 .hex {
   font-size: 3rem;
+  /* font-family: 'Ultra', serif; */
 }
 
 .hexBtn {
