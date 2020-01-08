@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Baskervville:400,400i&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+
+body{
+  font-family: 'Baskervville', serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  text-align: center;
+}
+
+.hexColor {
+  text-transform: capitalize;
+}
+
+.hex {
+  font-size: 3rem;
+}
+
+.hexBtn {
+  font-family: 'Courgette', cursive;
+  color: #F15025;
+  border: 3px solid #F15025;
+  border-radius: 7px;
+  background: rgba(0, 0, 0, 0.6);
+  font-size: 1.6rem;
+  padding: 0.25rem 0.25rem;
+  cursor: pointer;
+  outline: none;
+  text-transform: capitalize;
+}
+
+.hexBtn:hover {
+  background-color: rgba(0, 0, 0);
+  color: whitesmoke;
+}
